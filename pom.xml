@@ -11,8 +11,10 @@
 	<groupId>com.RepoRadar</groupId>
 	<artifactId>repo-radar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name/>
-	<description/>
+	<name>RepoRadar</name>
+<description>
+    GitHub Repository Searcher built using Java, Spring Boot and PostgreSQL.
+</description>
 	<url/>
 	<licenses>
 		<license/>
