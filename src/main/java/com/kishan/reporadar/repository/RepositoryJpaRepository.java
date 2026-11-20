@@ -1,0 +1,12 @@
+
+package com.kishan.reporadar.repository;
+
+import com.kishan.reporadar.entity.RepositoryEntity;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+public interface RepositoryJpaRepository
+        extends JpaRepository<RepositoryEntity, Long>,
+        JpaSpecificationExecutor<RepositoryEntity> {
+}
